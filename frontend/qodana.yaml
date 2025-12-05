@@ -1,0 +1,10 @@
+version: 1.0
+
+imports:
+  - ../base/qodana.yaml
+
+profile:
+  name: qodana.starter
+  inspections:
+    - group: "category:CSS"
+      enabled: true

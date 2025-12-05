@@ -1,0 +1,20 @@
+version: 1.0
+
+failureConditions:
+  severityThresholds:
+    critical: 0
+
+profile:
+  inspections:
+    - group: Security
+      enabled: true
+
+    - inspection: DependencyAnalysis
+      enabled: true
+      options:
+        usePackageSearch: true
+
+    - inspection: HardcodedPasswords
+      enabled: true
+      options:
+        reportSuspisiousVariableNames: true

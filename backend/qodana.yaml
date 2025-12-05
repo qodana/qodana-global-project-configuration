@@ -1,0 +1,14 @@
+version: 1.0
+
+imports:
+  - ../base/qodana.yaml
+
+failureConditions:
+  severityThresholds:
+    any: 0
+
+profile:
+  name: qodana.recommended
+  inspections:
+    - group: "category:Java/Probable bugs"
+      enabled: true

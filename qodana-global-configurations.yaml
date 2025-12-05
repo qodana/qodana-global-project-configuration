@@ -1,0 +1,11 @@
+configurations:
+  - id: backend
+    name: Backend
+    description: Configurations used for backend projects
+    qodanaYaml: backend/qodana.yaml
+
+  - id: frontend
+    name: Frontend
+    description: Configurations used for frontend projects
+    qodanaYaml: frontend/qodana.yaml
+        
