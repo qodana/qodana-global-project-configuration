@@ -1,7 +1,7 @@
 version: 1.0
 
 imports:
-  - ../base/qodana.yaml
+  - ../base/qodana.yaml # path to base profile to use
 
 profile:
   name: qodana.starter
