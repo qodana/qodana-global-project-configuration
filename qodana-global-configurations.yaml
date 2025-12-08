@@ -1,11 +1,11 @@
 configurations:
-  - id: backend
-    name: Backend # Displayed in Qodana Cloud UI
-    description: Configurations used for backend projects # Displayed in Qodana Cloud UI
-    qodanaYaml: backend/qodana.yaml # path to the config file
+  - id: team_a
+    name: Team A
+    description: Configurations used for Team A projects
+    qodanaYaml: teamA/qodana.yaml
 
-  - id: frontend
-    name: Frontend
-    description: Configurations used for frontend projects
-    qodanaYaml: frontend/qodana.yaml
+  - id: team_b
+    name: Team B
+    description: Configurations used for Team B projects
+    qodanaYaml: teamB/qodana.yaml
         

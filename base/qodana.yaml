@@ -17,4 +17,4 @@ profile:
     - inspection: HardcodedPasswords
       enabled: true
       options:
-        reportSuspisiousVariableNames: true
+        reportDefaultSuspiciousVariableNames: true
