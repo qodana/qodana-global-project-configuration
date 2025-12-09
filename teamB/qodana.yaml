@@ -5,7 +5,7 @@ imports:
 
 profile:
   inspections:
-    - inspection: DependencyAnalysis
+    - inspection: CheckDependencyLicenses
       enabled: false
 
     - inspection: HardcodedPasswords

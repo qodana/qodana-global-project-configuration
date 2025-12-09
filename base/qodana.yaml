@@ -5,11 +5,17 @@ failureConditions:
     critical: 0
 
 profile:
+  groups:
+    - groupId: Security
+      groups:
+        - "category:Java/Security"
+        - "category:Security"
+
   inspections:
     - group: Security
       enabled: true
 
-    - inspection: DependencyAnalysis
+    - inspection: CheckDependencyLicenses
       enabled: true
       options:
         usePackageSearch: true
